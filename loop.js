@@ -369,57 +369,5 @@ else{
 // console.log(value);
 
 
-// let n = 5;
-// let arr1 = [4,2,3,5,6];
-// let arr2 = [4,2,3,5,6];
-// let i = 0;
-
-// while (i < n) {
-//     let j = 0;
-//     while (j < n) {
-//         if (i!=j){
-//             arr2[i] = arr2[i] + arr1[j];
-//         }
-//         j = j + 1;
-//     }
-//     console.log(arr2[3]);
-//     i = i + 1;
-// }
-// Example array
-// Example array (must be sorted for binary search to work)
-/*let numbers = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21];
-
-// Target value to search for
-let target = 15;
-
-// Start index
-let start = 0;
-
-// End index
-let end = numbers.length - 1;
-
-// Variable to hold the result (index of the target if found, else -1)
-let result = 1;
-
-// Binary search algorithm
-while (start <= end) {
-    let mid = Math.floor((start + end) / 2);
-
-    if (numbers[mid] === target) {
-        result = mid;
-        break; // Exit the loop if target is found
-    } else if (numbers[mid] < target) {
-        start = mid + 1; // Narrow down to the right half
-    } else {
-        end = mid - 1; // Narrow down to the left half
-    }
-}
-
-// Display the result
-console.log(result); // This will print the index of the target in the array, or -1 if not found
-*/
-
-
-// const input=require("readline-sync")
 
 
